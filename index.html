@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sign Up here</h1>
+        <form id="form" autocomplete="off">
+
+                <label class="label" for="username">Full Name</label>
+                <input id="username" type="text" placeholder="Enter your name" required>
+                <small class="er" id="userError"></small>
+        
+
+                <label class="label" for="Email">Email </label>
+                <input id="Email" type="email" placeholder="Enter your email no." required>
+                <small class="er" id="EmailError"></small>
+
+
+                <label class="label" for="password">Password</label>
+                <input id="password" type="password" placeholder="Enter your password" required>
+                <small class="er" id="PassError"></small>
+
+
+                <label class="label" for="ConfirmPassword">Confirm Password</label>
+                <input id="ConfirmPassword" type="password" placeholder="Enter your password" required>
+                <small class="er" id="Pass2Error"></small>
+
+            <div class="box">
+                <input id="check1" type="checkbox">
+                <label for="check1" id="check">I agrre to the term's & condition</label> 
+                <small class="er" id="checkError"></small>
+            </div>
+
+            <div class="box2">
+                <a href="login.html">Click to login</a>
+                <button id="Submit" type="submit">Sign Up</button>
+            </div>
+
+        </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
